@@ -21,7 +21,7 @@ public class App
 		 System.out.println("Hi, Welcome to selenuim with jenkins");
 
 
-		 driver.get("http://52.66.235.24:8889//addressbook");
+		 driver.get("http://13.232.37.11:8889//addressbook");
 
 		 driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		 driver.findElement(By.className("v-button")).click();
